@@ -1,0 +1,360 @@
+./tests/reposition_report_test.py:100:	data = {"medical_record_number": patient_id, "name" : patient_name, "gender": "cat", "DOB": "7/11/01", "unit_floor": patient_id, "bed_type": "floating", "ethnicity": "feline",
+./tests/reposition_report_test.py:113:	patient_id = r.json()['medical_record_number']
+./tests/reposition_report_test.py:120:	data = {"medical_record_number": patient_id2, "name" : patient_name, "gender": "cat", "DOB": "7/11/01", "unit_floor": patient_id, "bed_type": "floating", "ethnicity": "feline",
+./tests/reposition_report_test.py:133:	patient_id2 = r.json()['medical_record_number']
+./tests/status_station_test.py:80:    data = {"medical_record_number": patient_id, "name" : patient_name, "gender": "cat", "DOB": "7-11-01", "unit_floor": "3B", "bed_type": "floating", "ethnicity": "feline",
+./tests/status_station_test.py:93:    patient_id = r.json()['medical_record_number']
+./tests/test_happy_path.py:129:	data = {"medical_record_number": patient_id, "name" : patient_name, "gender": "cat", "DOB": "7-11-01", "unit_floor": "3B", "bed_type": "floating", "ethnicity": "feline",
+./tests/test_happy_path.py:142:	patient_id = r.json()['medical_record_number']
+./tests/test_happy_path.py:149:	data = {"medical_record_number": patient_id, "name" : patient_name, "gender": "cat", "DOB": "7-11-01", "unit_floor": "3B", "bed_type": "floating", "ethnicity": "feline",
+./tests/test_happy_path.py:318:	#assert [x for x in r.json()['patients'] if x['medical_record_number'] == 30]
+./tests/test_happy_path.py:319:	#assert contains(r.json()['patients'], lambda x: x.medical_record_number == patient_id)
+./tests/test_happy_path.py:480:	url = url_base + 'events?medical_record_number=' + patient_id
+./tests/test_happy_path.py:485:	assert patient_id == r.json()['events'][0]['medical_record_number']
+./tests/test_happy_path.py:1000:	url = url_base + 'timelines?medical_record_number=' + patient_id
+Binary file ./models.pyc matches
+./app.py:76:api.add_resource(AlarmResponseReport, '/alarmresponsereports/<medical_record_number>', '/alawhrmresponsereports')
+./app.py:78:api.add_resource(BodyLocation, '/patients/<medical_record_number>/bodylocations/<location>/', '/patients/<medical_record_number>/bodylocations/')
+./app.py:79:api.add_resource(BodyLocationHistoryReport, '/bodylocationhistoryreports/<medical_record_number>', '/bodylocationhistoryreports')
+./app.py:81:api.add_resource(Deactivate, '/deactivate/<medical_record_number>/')
+./app.py:86:api.add_resource(EventReport, '/eventreports/<medical_record_number>', '/eventreports')
+./app.py:91:api.add_resource(Outcome, '/outcomes/<medical_record_number>')
+./app.py:92:api.add_resource(Patient, '/patients/<medical_record_number>', '/patients')
+./app.py:93:api.add_resource(PatientAssignDevice, '/patients/<medical_record_number>/assign/<serial>')
+./app.py:94:api.add_resource(PatientInfoReport, '/patientinforeports/<medical_record_number>', '/patientinforeports')
+./app.py:96:api.add_resource(PUStatusReport, '/pustatusreports/<medical_record_number>', '/pustatusreports')
+./app.py:97:api.add_resource(RepositionReport, '/repositionreports/<medical_record_number>', '/repositionreports')
+./app.py:104:api.add_resource(UnassignPatient, '/patients/<medical_record_number>/unassign/')
+./app.py:106:api.add_resource(UserAssignPatient, '/users/<email>/patients/<medical_record_number>')
+Binary file ./utils.pyc matches
+./models.py:105:	medical_record_number = db.Column(db.String(100), index=True)
+./models.py:117:		site_assessment=None, sensor_removal=None, wound_measurement=None, wound_existing_since=None, medical_record_number=None,
+./models.py:142:		self.medical_record_number = medical_record_number
+./models.py:153:	__attributes__ = ['id', 'medical_record_number', 'JSID', 'sensor_serial', 'stopped', 'force_state', 'fast_blink', 'distance',
+./models.py:159:	__required__ = ['id', 'patient_id', 'medical_record_number', 'JSID', 'sensor_serial', 'stopped', 'force_state', 'fast_blink', 'distance', \
+./models.py:169:	__attributes__ = ['medical_record_number', 'is_wound', 'existing_wound', 'wound_stage', 'wound_measurement', 'wound_existing_since', 
+./models.py:171:	__required__ = ['medical_record_number', 'is_wound', 'existing_wound', 'wound_stage', 'wound_measurement', 'wound_existing_since', 
+./models.py:201:	medical_record_number = db.Column(db.String(100), index=True)
+./models.py:216:		site_assessment=None, sensor_removal=None, wound_measurement=None, wound_existing_since=None, medical_record_number=None,
+./models.py:240:		self.medical_record_number = medical_record_number
+./models.py:253:	__attributes__ = ['id', 'medical_record_number', 'JSID', 'sensor_serial', 'stopped', 'force_state', 'fast_blink', 'distance', 'user', 'date_of_record',
+./models.py:258:	__required__ = ['id', 'medical_record_number', 'JSID', 'sensor_serial', 'stopped', 'force_state', 'fast_blink', 'distance', 'user', 'date_of_record',
+./models.py:279:	medical_record_number = db.Column(db.String(100), index=True, unique=True)
+./models.py:286:		language=None, medical_record_number=None, last_device_sync=None, last_web_change=None, deleted=None):#, timezone=None):
+./models.py:296:		self.medical_record_number = medical_record_number
+./models.py:303:	__attributes__ = ['id', 'medical_record_number', 'serial', 'name', 'last_seen', 'alarm_duration', 'alarm_sound', \
+./models.py:305:	__required__ = ['id', 'patient_id', 'medical_record_number', 'serial', 'name', 'last_seen', 'alarm_duration', 'alarm_sound', \
+./models.py:379:	medical_record_number = db.Column(db.String(100), index=True)
+./models.py:384:	def __init__(self, patient_id, message, body_location_id=None, medical_record_number=None, device_id=None, instance=None, 
+./models.py:394:		self.medical_record_number = medical_record_number
+./models.py:399:	__attributes__ = ['id', 'medical_record_number', 'device_id', 'message', 'instance', 'range_start', 'range_end', 'location', 'unit_floor', 'latest',]
+./models.py:400:	__required__ = ['id', 'medical_record_number', 'device_id', 'message', 'instance', 'range_start', 'range_end', 'location', 'unit_floor', 'latest']
+./models.py:405:	__attributes__ = ['id', 'medical_record_number', 'device_id', 'message', 'instance', 'range_start', 'range_end', 'location', 'unit_floor', 'latest', 'battery',]
+./models.py:406:	__required__ = ['id', 'medical_record_number', 'device_id', 'message', 'instance', 'range_start', 'range_end', 'location', 'unit_floor', 'latest', 'battery']
+./models.py:424:	medical_record_number = db.Column(db.String(100), index=True)
+./models.py:431:	def __init__(self, event_type, occurred, sensor_serial=None, medical_record_number=None, location=None, battery=None,
+./models.py:444:		self.medical_record_number = medical_record_number
+./models.py:453:	__required__ = ['medical_record_number', 'event_type', 'occurred', 'sensor_serial', 'location', 'battery', 'distance',
+./models.py:628:	medical_record_number = db.Column(db.String(50), unique=True, index=True)
+./models.py:635:		blood_pressure=None, bmi=None, deleted=None, pa_id=None, medical_record_number=None, date_of_admission=None, units=None, room=None):
+./models.py:656:		self.medical_record_number = medical_record_number
+./models.py:662:	__attributes__ = ['id', 'medical_record_number', 'device', 'body_locations', 'gender', 'DOB', 'unit_floor', \
+./models.py:666:	__required__ = ['id', 'medical_record_number', 'device', 'body_locations', 'gender', 'DOB', 'unit_floor', \
+./models.py:762:	medical_record_number = db.Column(db.String(100), index=True)
+./models.py:792:	def __init__(self, pa_id, medical_record_number, user, date_of_record, gender=None, DOB=None, unit_floor=None, bed_type=None,
+./models.py:798:		self.medical_record_number = medical_record_number
+./models.py:827:	__attributes__ = ['medical_record_number', 'gender', 'DOB', 'unit_floor', 'bed_type', 'ethnicity', 'braden_score', 'mobility', 
+./models.py:830:	__required__ = ['medical_record_number', 'gender', 'DOB', 'unit_floor', 'bed_type', 'ethnicity', 'braden_score', 'mobility', 
+./reports/patient_info_report.py:18:				"name": "medical_record_number",
+./reports/patient_info_report.py:37:	def get(self, user=None, sub=None, medical_record_number=None, role=None):
+./reports/patient_info_report.py:50:			if not medical_record_number:
+./reports/patient_info_report.py:51:				medical_record_number = request.args.get('medical_record_number', None)
+./reports/patient_info_report.py:56:						DBPatient.medical_record_number == DBPatientHistory.medical_record_number).filter(DBPatient.deleted == False)
+./reports/patient_info_report.py:58:			if medical_record_number:
+./reports/patient_info_report.py:59:				medical_record_number = medical_record_number.split(',')
+./reports/patient_info_report.py:60:				report_query = report_query.filter(DBPatientHistory.medical_record_number.in_(medical_record_number))
+./reports/patient_info_report.py:111:			if 'medical_record_number' in d: d.pop('medical_record_number')
+./reports/pu_status_report.py:15:				"name": "medical_record_number",
+./reports/pu_status_report.py:34:	def get(self, user=None, sub=None, medical_record_number=None, role=None):
+./reports/pu_status_report.py:46:			if not medical_record_number:
+./reports/pu_status_report.py:47:				medical_record_number = request.args.get('medical_record_number', None)
+./reports/pu_status_report.py:53:			if medical_record_number:
+./reports/pu_status_report.py:54:				medical_record_number = medical_record_number.split(',')
+./reports/pu_status_report.py:55:				report_query = report_query.filter(DBBodyLocation.medical_record_number.in_(medical_record_number))
+./reports/pu_status_report.py:97:			if 'medical_record_number' in d: d.pop('medical_record_number')
+Binary file ./reports/body_location_history_report.pyc matches
+./reports/alarm_response_report.py:41:				"name": "medical_record_number",
+./reports/alarm_response_report.py:60:	def get(self, user=None, sub=None, medical_record_number=None, role=None):
+./reports/alarm_response_report.py:82:		elif medical_record_number:
+./reports/alarm_response_report.py:83:			patients_active = get_patients_active_patient(medical_record_number, start, end)
+./reports/alarm_response_report.py:95:		if medical_record_number:
+./reports/alarm_response_report.py:96:			response_query = DBAlarmResponse.query.filter_by(pa_id=medical_record_number).order_by(DBAlarmResponse.date, DBAlarmResponse.hour)
+./reports/alarm_response_report.py:97:			earliest_start = DBPatientActivation.query.join(DBPatient).filter(DBPatient.pa_id==medical_record_number).order_by(DBPatientActivation.occurred).first()
+./reports/alarm_response_report.py:225:			if medical_record_number:
+./reports/alarm_response_report.py:439:		if medical_record_number:
+./reports/alarm_response_report.py:440:			query_string += 'pa_id = "' + medical_record_number +'" '
+./reports/alarm_response_report.py:866:def get_patients_active_patient(medical_record_number, start, end):
+./reports/alarm_response_report.py:871:	p = DBPatient.query.filter_by(medical_record_number=medical_record_number).first()
+./reports/event_report.py:19:				"name": "medical_record_number",
+./reports/event_report.py:45:	def get(self, user=None, sub=None, medical_record_number=None, role=None):
+./reports/event_report.py:61:			if not medical_record_number:
+./reports/event_report.py:62:				medical_record_number = request.args.get('medical_record_number', None)
+./reports/event_report.py:69:				DBEventHistory.wound_alarm_clear_multiple).join(DBPatient, DBPatient.medical_record_number == DBEventHistory.medical_record_number).filter(
+./reports/event_report.py:72:			if medical_record_number:
+./reports/event_report.py:73:				medical_record_number = medical_record_number.split(',')
+./reports/event_report.py:74:				report_query = report_query.filter(DBEventHistory.medical_record_number.in_(medical_record_number))
+./reports/event_report.py:101:				query_string = 'SELECT event_history.event_type AS event_type, event_history.unit_floor AS unit_floor, event_history.occurred AS occurred, event_history.location AS location, event_history.sensor_serial AS sensor_serial, event_history.battery AS battery, event_history.distance AS distance, event_history.alarm_threshold_minutes AS alarm_threshold_minutes, event_history.alarm_clear_multiple AS alarm_clear_multiple, event_history.previous_alarm_threshold_hours AS previous_alarm_threshold_hours, event_history.wound_alarm_threshold_minutes AS wound_alarm_threshold_minutes, event_history.wound_alarm_clear_multiple AS wound_alarm_clear_multiple, patient.name AS name, patient.last_name AS last_name FROM event_history INNER JOIN patient ON patient.medical_record_number = event_history.medical_record_number and patient.deleted = false '
+./reports/event_report.py:178:			if 'medical_record_number' in d: d.pop('medical_record_number')
+Binary file ./reports/patient_info_report.pyc matches
+./reports/body_location_history_report.py:15:				"name": "medical_record_number",
+./reports/body_location_history_report.py:41:	def get(self, user=None, sub=None, medical_record_number=None, role=None):
+./reports/body_location_history_report.py:52:			if not medical_record_number:
+./reports/body_location_history_report.py:53:				medical_record_number = request.args.get('medical_record_number', None)
+./reports/body_location_history_report.py:58:				DBPatient.medical_record_number == DBBodyLocationHistory.medical_record_number).filter(DBPatient.deleted == False).add_columns(DBPatient.name)
+./reports/body_location_history_report.py:60:			if medical_record_number:
+./reports/body_location_history_report.py:61:				medical_record_number = medical_record_number.split(',')
+./reports/body_location_history_report.py:62:				report_query = report_query.filter(DBBodyLocationHistory.medical_record_number.in_(medical_record_number))
+./reports/body_location_history_report.py:101:			if 'medical_record_number' in d: d.pop('medical_record_number')
+Binary file ./reports/pu_status_report.pyc matches
+Binary file ./reports/reposition_report.pyc matches
+Binary file ./reports/event_report.pyc matches
+./reports/reposition_report.py:40:				"name": "medical_record_number",
+./reports/reposition_report.py:59:	def get(self, user=None, sub=None, medical_record_number=None, role=None):
+./reports/reposition_report.py:78:			elif medical_record_number:
+./reports/reposition_report.py:79:				patients_active = get_patients_active_patient(medical_record_number, start, end)
+./reports/reposition_report.py:89:			if medical_record_number:
+./reports/reposition_report.py:90:				reposition_query = DBAlarmResponse.query.filter_by(pa_id=medical_record_number).order_by(DBAlarmResponse.date, DBAlarmResponse.hour)
+./reports/reposition_report.py:91:				earliest_start = DBPatientActivation.query.join(DBPatient).filter(DBPatient.pa_id==medical_record_number).order_by(DBPatientActivation.occurred).first()
+./reports/reposition_report.py:192:				if medical_record_number:
+./reports/reposition_report.py:339:			if medical_record_number:
+./reports/reposition_report.py:340:				query_string += 'pa_id = "' + medical_record_number +'" '
+./reports/reposition_report.py:651:def get_patients_active_patient(medical_record_number, start, end):
+./reports/reposition_report.py:656:	p = DBPatient.query.filter_by(medical_record_number=medical_record_number).first()
+Binary file ./reports/alarm_response_report.pyc matches
+./utils.py:228:                    payload = {'device_id' : device.id, 'patient_id' : device.patient_id, 'medical_record_number' : device.medical_record_number, 
+./utils.py:251:            event['medical_record_number'] = p.medical_record_number
+./utils.py:261:            event_history['medical_record_number'] = p.medical_record_number
+Binary file ./app.pyc matches
+./objects/status_station.py:42:					DBPatient.medical_record_number == DBEvent.medical_record_number
+./objects/status_station.py:47:					DBPatient.medical_record_number,
+./objects/status_station.py:53:					if not v.medical_record_number in patients:
+./objects/status_station.py:54:						patients[v.medical_record_number] = {}
+./objects/status_station.py:55:						patients[v.medical_record_number]['events'] = []
+./objects/status_station.py:56:					patients[v.medical_record_number]['unit_floor'] = v.unit_floor
+./objects/status_station.py:57:					patients[v.medical_record_number]['name'] = str(v.name) + ' ' + (v.last_name or '')
+./objects/status_station.py:58:					patients[v.medical_record_number]['online'] = True
+./objects/status_station.py:59:					patients[v.medical_record_number]['room'] = v.room
+./objects/status_station.py:61:					if 'events' in patients[v.medical_record_number] and \
+./objects/status_station.py:62:					len(filter(lambda event: event['id'] == v[0].id, patients[v.medical_record_number]['events'])) == 0:
+./objects/status_station.py:63:						patients[v.medical_record_number]['events'].append(StatusEventJsonSerializer().serialize(v[0]))
+./objects/status_station.py:70:				if not p.medical_record_number in patients:
+./objects/status_station.py:71:					patients[p.medical_record_number] = {}
+./objects/status_station.py:72:					patients[p.medical_record_number]['events'] = []
+./objects/status_station.py:73:				patients[p.medical_record_number]['unit_floor'] = p.unit_floor
+./objects/status_station.py:74:				patients[p.medical_record_number]['name'] = p.name + ' ' + (p.last_name or '')
+./objects/status_station.py:75:				patients[p.medical_record_number]['online'] = False
+./objects/status_station.py:76:				patients[p.medical_record_number]['last_online'] = datetimetostr(last_seen)
+./objects/status_station.py:77:				patients[p.medical_record_number]['room'] = p.room
+./objects/status_station.py:81:					unplugged = DBEvent.query.filter(DBEvent.medical_record_number == p, DBEvent.message.in_(['DEVICE IS PLUGGED INTO POWER', 
+./objects/timeline.py:16:				"name": "medical_record_number",
+./objects/timeline.py:38:			if request.args.get('medical_record_number'):
+./objects/timeline.py:39:				result = DBEvent.query.filter_by(medical_record_number=request.args.get('medical_record_number')).all()
+./objects/timeline.py:44:				p = DBPatient.query.filter_by(medical_record_number=request.args.get('medical_record_number')).first()
+./objects/outcome.py:16:				"name": "medical_record_number",
+./objects/outcome.py:38:	def get(self, user=None, sub=None, medical_record_number=None, role=None):
+./objects/outcome.py:42:			if medical_record_number:
+./objects/outcome.py:43:				patient = DBPatient.query.filter_by(pa_id=medical_record_number).first()
+./objects/outcome.py:45:					wounds = DBBodyLocation.query.filter(DBBodyLocation.medical_record_number==medical_record_number, 
+./objects/global_location_settings.py:20:	def get(self, user=None, sub=None, device_id=None, medical_record_number=None, patient_id=None, location=None, role=None, device_serial=None):
+./objects/default_sync.py:24:	def get(self, device_id=None, patient_id=None, medical_record_number=None, device_serial=None):
+./objects/device.py:34:	def delete(self, user=None, sub=None, medical_record_number=None, serial=None, role=None):
+./objects/device.py:41:				device.medical_record_number = None
+./objects/body_location.py:15:			  "name": "medical_record_number",
+./objects/body_location.py:25:			  "message": "An array of body locations, sorted by medical_record_number"
+./objects/body_location.py:34:	def get(self, user=None, sub=None, medical_record_number=None, location=None, role=None):
+./objects/body_location.py:39:		p = DBPatient.query.filter_by(medical_record_number=medical_record_number).first()
+./objects/body_location.py:41:			body_location = DBBodyLocation.query.filter_by(medical_record_number=medical_record_number, JSID=location.upper()).first()
+./objects/body_location.py:46:			locations = DBBodyLocation.query.filter_by(medical_record_number=medical_record_number).all()
+./objects/body_location.py:81:	def put(self, user=None, sub=None, medical_record_number=None, location=None, role=None):
+./objects/body_location.py:87:			location = DBBodyLocation.query.filter_by(medical_record_number=medical_record_number, JSID=request.json['body_location'].upper()).first()
+./objects/body_location.py:88:			p = DBPatient.query.filter_by(medical_record_number=medical_record_number).first()
+./objects/body_location.py:141:				device = DBDevice.query.filter_by(medical_record_number=medical_record_number).first()
+./objects/status_app.py:36:			DBPatient.medical_record_number == DBEvent.medical_record_number).add_columns(
+./objects/status_app.py:37:			DBPatient.unit_floor, DBPatient.name, DBPatient.medical_record_number, DBBodyLocation.battery, DBPatient.room).all()
+./objects/status_app.py:40:					if not v.medical_record_number in patients:
+./objects/status_app.py:41:						patients[v.medical_record_number] = {}
+./objects/status_app.py:42:						patients[v.medical_record_number]['events'] = []
+./objects/status_app.py:43:					patients[v.medical_record_number]['unit_floor'] = v.unit_floor
+./objects/status_app.py:44:					patients[v.medical_record_number]['name'] = deidentify(v.name)
+./objects/status_app.py:45:					patients[v.medical_record_number]['online'] = True
+./objects/status_app.py:46:					patients[v.medical_record_number]['room'] = v.room
+./objects/status_app.py:48:					if 'events' in patients[v.medical_record_number] and \
+./objects/status_app.py:49:					len(filter(lambda event: event['id'] == v[0].id, patients[v.medical_record_number]['events'])) == 0:
+./objects/status_app.py:50:						patients[v.medical_record_number]['events'].append(StatusEventJsonSerializer().serialize(v[0]))
+./objects/status_app.py:57:				if not p.medical_record_number in patients:
+./objects/status_app.py:58:					patients[p.medical_record_number] = {}
+./objects/status_app.py:59:					patients[p.medical_record_number]['events'] = []
+./objects/status_app.py:60:				patients[p.medical_record_number]['unit_floor'] = p.unit_floor
+./objects/status_app.py:61:				patients[p.medical_record_number]['name'] = deidentify(p.name)
+./objects/status_app.py:62:				patients[p.medical_record_number]['online'] = False
+./objects/status_app.py:63:				patients[p.medical_record_number]['last_online'] = datetimetostr(last_seen)
+./objects/status_app.py:64:				patients[p.medical_record_number]['room'] = p.room
+./objects/status_app.py:68:					unplugged = DBEvent.query.filter(DBEvent.medical_record_number == p, DBEvent.message.in_(['DEVICE IS PLUGGED INTO POWER', 
+./objects/admin.py:29:	def get(self, user=None, sub=None, device_id=None, medical_record_number=None, patient_id=None, role=None, device_serial=None):
+./objects/patient_note.py:422:	def put(self, user=None, sub=None, medical_record_number=None, role=None, body_location_id=None):
+./objects/global_device_settings.py:21:	def get(self, user=None, sub=None, device_id=None, medical_record_number=None, patient_id=None, role=None, device_serial=None):
+./objects/event.py:18:				"name": "medical_record_number",
+./objects/event.py:43:			elif request.args.get('medical_record_number'):
+./objects/event.py:44:				result = DBEvent.query.filter_by(medical_record_number=request.args.get('medical_record_number')).all()
+./objects/event.py:125:	def post(self, device_id=None, patient_id=None, medical_record_number=None, device_serial=None, user=None):
+./objects/event.py:158:		event['medical_record_number'] = patient.medical_record_number
+./objects/event.py:167:			body_location = DBBodyLocation.query.filter_by(medical_record_number=patient.medical_record_number, 
+./objects/event.py:176:				self.log_turned_response(event, patient.medical_record_number, patient.unit_floor)
+./objects/event.py:184:				previous_unplugged = DBEvent.query.filter(DBEvent.medical_record_number == patient.medical_record_number, DBEvent.message.in_(['DEVICE IS PLUGGED INTO POWER', 
+./objects/event.py:193:				previous_unplugged = DBEvent.query.filter(DBEvent.medical_record_number == patient.medical_record_number, DBEvent.message.in_(['DEVICE IS PLUGGED INTO POWER', 
+./objects/event.py:215:						self.log_alarm(event, patient.medical_record_number, patient.unit_floor)
+./objects/event.py:218:					latest=str(patient.medical_record_number) + str(event['location'].upper())).first()
+./objects/event.py:221:						self.log_alarm_clear(event, previous_event, patient.medical_record_number, patient.unit_floor)
+./objects/event.py:227:					struct_logger.msg(instance=LOGGING_INSTANCE, event='No Previous Event', medical_record_number=patient.medical_record_number, location=event['location'].upper(), message=event['message'])
+./objects/event.py:229:				event['latest'] = str(patient.medical_record_number) + str(event['location'].upper())
+./objects/event.py:243:				struct_logger.msg(instance=LOGGING_INSTANCE, event='Event Duplicate', medical_record_number=patient.medical_record_number, 
+./objects/event.py:262:			event_history['medical_record_number'] = patient.medical_record_number
+./objects/event.py:310:	def log_turned_response(self, event, medical_record_number, unit_floor):
+./objects/event.py:333:					self.write_response_records(d, h, medical_record_number, unit_floor, caregiver_repositions=dates[d][h], patient_repositions=-1*(dates[d][h]))
+./objects/event.py:338:	def log_alarm(self, event, medical_record_number, unit_floor):
+./objects/event.py:344:		self.write_response_records(date, hour, medical_record_number, unit_floor, alarms_occurred=1)
+./objects/event.py:347:	def log_alarm_clear(self, event, previous_event, medical_record_number, unit_floor):
+./objects/event.py:382:			self.write_response_records(date, hour, medical_record_number, unit_floor, caregiver_repositions=caregiver_repositions,
+./objects/event.py:386:			#response_patient = DBAlarmResponsePatient.query.filter_by(date=date, hour=hour, pa_id=medical_record_number)
+./objects/event.py:392:					self.write_response_records(dt.date(), dt.hour, medical_record_number, unit_floor, 
+./objects/event.py:396:					self.write_response_records(dt.date(), dt.hour, medical_record_number, unit_floor, caregiver_repositions=caregiver_repositions,
+./objects/event.py:401:					self.write_response_records(dt.date(), dt.hour, medical_record_number, unit_floor, minute_range_start=0, minute_range_end=59)
+./objects/patient.py:17:				"name": "medical_record_number",
+./objects/patient.py:36:	def delete(self, user=None, sub=None, medical_record_number=None, role=None):
+./objects/patient.py:40:		if medical_record_number:
+./objects/patient.py:41:			patient = DBPatient.query.filter_by(pa_id=medical_record_number).first()
+./objects/patient.py:43:				device = DBDevice.query.filter_by(medical_record_number=medical_record_number).first()
+./objects/patient.py:46:					device.medical_record_number = None
+./objects/patient.py:50:				patient.medical_record_number = patient.medical_record_number + deleted_string
+./objects/patient.py:76:				"name": "medical_record_number",
+./objects/patient.py:112:	def get(self, user=None, sub=None, medical_record_number=None, role=None):
+./objects/patient.py:116:			if medical_record_number:
+./objects/patient.py:117:				patient = DBPatient.query.filter_by(pa_id=medical_record_number, deleted=False).first()
+./objects/patient.py:122:			elif request.args.get('medical_record_number'):
+./objects/patient.py:123:				patient = DBPatient.query.filter_by(pa_id=request.args.get('medical_record_number'), deleted=False).first()
+./objects/patient.py:146:					patients = DBPatient.query.order_by(DBPatient.medical_record_number).order_by(DBPatient.name).all()
+./objects/patient.py:283:				"name": "medical_record_number",
+./objects/patient.py:440:			if 'medical_record_number' in data:
+./objects/patient.py:447:			patient_dict['medical_record_number'] = new_patient_id
+./objects/patient.py:547:				default_location_dict['medical_record_number'] = patient.medical_record_number
+./objects/patient.py:572:				"name": "medical_record_number",
+./objects/patient.py:720:	def put(self, user=None, sub=None, role=None, medical_record_number=None):
+./objects/patient.py:730:				patient.medical_record_number = data.get('pa_id')
+./objects/patient.pycop:16:				"name": "medical_record_number",
+./objects/patient.pycop:35:	def delete(self, user=None, sub=None, medical_record_number=None, role=None):
+./objects/patient.pycop:39:		if medical_record_number:
+./objects/patient.pycop:40:			patient = DBPatient.query.filter_by(pa_id=medical_record_number).first()
+./objects/patient.pycop:42:				device = DBDevice.query.filter_by(medical_record_number=medical_record_number).first()
+./objects/patient.pycop:45:					device.medical_record_number = None
+./objects/patient.pycop:49:				patient.medical_record_number = patient.medical_record_number + deleted_string
+./objects/patient.pycop:75:				"name": "medical_record_number",
+./objects/patient.pycop:111:	def get(self, user=None, sub=None, medical_record_number=None, role=None):
+./objects/patient.pycop:115:			if medical_record_number:
+./objects/patient.pycop:116:				patient = DBPatient.query.filter_by(pa_id=medical_record_number, deleted=False).first()
+./objects/patient.pycop:120:			elif request.args.get('medical_record_number'):
+./objects/patient.pycop:121:				patient = DBPatient.query.filter_by(pa_id=request.args.get('medical_record_number'), deleted=False).first()
+./objects/patient.pycop:142:					patients = DBPatient.query.order_by(DBPatient.medical_record_number).order_by(DBPatient.name).all()
+./objects/patient.pycop:183:#                patient_json.pop('medical_record_number')
+./objects/patient.pycop:214:				"name": "medical_record_number",
+./objects/patient.pycop:371:			if 'medical_record_number' in data:
+./objects/patient.pycop:372:				new_patient_id = data.get('medical_record_number')
+./objects/patient.pycop:378:			patient_dict['medical_record_number'] = new_patient_id
+./objects/patient.pycop:478:				default_location_dict['medical_record_number'] = patient.medical_record_number
+./objects/patient.pycop:503:				"name": "medical_record_number",
+./objects/patient.pycop:651:	def put(self, user=None, sub=None, role=None, medical_record_number=None):
+./objects/patient.pycop:660:				patient.medical_record_number = data.get('patient_id')
+./objects/body_location.py.save.1:15:			  "name": "medical_record_number",
+./objects/body_location.py.save.1:25:			  "message": "An array of body locations, sorted by medical_record_number"
+./objects/body_location.py.save.1:34:	def get(self, user=None, sub=None, medical_record_number=None, location=None, role=None):
+./objects/body_location.py.save.1:39:		p = DBPatient.query.filter_by(medical_record_number=medical_record_number).first()
+./objects/body_location.py.save.1:41:			body_location = DBBodyLocation.query.filter_by(medical_record_number=medical_record_number, JSID=location.upper()).first()
+./objects/body_location.py.save.1:46:			locations = DBBodyLocation.query.filter_by(medical_record_number=medical_record_number).all()
+./objects/body_location.py.save.1:81:	def put(self, user=None, sub=None, medical_record_number=None, location=None, role=None):
+./objects/body_location.py.save.1:87:			location = DBBodyLocation.query.filter_by(medical_record_number=medical_record_number, JSID=request.json['body_location'].upper()).first()
+./objects/body_location.py.save.1:88:			p = DBPatient.query.filter_by(medical_record_number=medical_record_number).first()
+./objects/body_location.py.save.1:141:				device = DBDevice.query.filter_by(medical_record_number=medical_record_number).first()
+Binary file ./actions/alert.pyc matches
+Binary file ./actions/patient_assign_device.pyc matches
+./actions/user_assign_patient.py:14:			"name": "medical_record_number",
+./actions/user_assign_patient.py:44:	def put(self, user=None, sub=None, medical_record_number=None, role=None, email=None):
+./actions/user_assign_patient.py:49:			patient = DBPatient.query.filter_by(medical_record_number=medical_record_number).first()
+./actions/unassign_device.py:42:			#patient = DBPatient.query.filter_by(medical_record_number=medical_record_number).first()
+./actions/unassign_device.py:50:					device.medical_record_number = None
+Binary file ./actions/unassign_device.pyc matches
+./actions/unassign_patient.py:14:			"name": "medical_record_number",
+./actions/unassign_patient.py:37:	def put(self, user=None, sub=None, role=None, medical_record_number=None):
+./actions/unassign_patient.py:42:			patient = DBPatient.query.filter_by(pa_id=medical_record_number).first()
+./actions/unassign_patient.py:43:			device = DBDevice.query.filter_by(medical_record_number=medical_record_number).first()
+./actions/unassign_patient.py:50:					device.medical_record_number = None
+./actions/alert.py:30:	def send_sms(self, text, number, medical_record_number):
+./actions/alert.py:35:					body=text % medical_record_number,
+Binary file ./actions/sync.pyc matches
+Binary file ./actions/change_password.pyc matches
+./actions/patient_assign_device.py:14:			"name": "medical_record_number",
+./actions/patient_assign_device.py:44:	def put(self, medical_record_number=None, user=None, sub=None, role=None, serial=None):
+./actions/patient_assign_device.py:58:					device.medical_record_number = patient.medical_record_number
+Binary file ./actions/unassign_patient.pyc matches
+Binary file ./actions/user_assign_patient.pyc matches
+Binary file ./actions/deactivate.pyc matches
+./actions/change_password.py:50:	def put(self, user=None, sub=None, medical_record_number=None, location=None, role=None, email=None):
+./actions/sync.py:35:	def post(self, user=None, sub=None, device_id=None, patient_id=None, medical_record_number=None, device_serial=None):
+./actions/sync.py:46:							self.process_sensor(device, sensor, p, medical_record_number)
+./actions/sync.py:72:	def get(self, device_id=None, device_serial=None, patient_id=None, medical_record_number=None):
+./actions/sync.py:114:	def return_sync(self, patient_id, device, medical_record_number):
+./actions/sync.py:120:			location_dict.pop('medical_record_number')
+./actions/sync.py:127:		glob['medical_record_number'] = medical_record_number
+./actions/sync.py:139:	def process_sensor(self, device, sensor, patient, medical_record_number):
+./actions/sync.py:171:					medical_record_number) + str(location.JSID)).first()
+./actions/sync.py:174:							medical_record_number=medical_record_number, sensor_serial=location.sensor_serial)
+./actions/sync.py:197:					medical_record_number) + str(location.JSID)).first()
+./actions/sync.py:310:			latest=str(patient.medical_record_number) + str(body_location.JSID.upper())).first()
+./actions/sync.py:316:			struct_logger.msg(instance=LOGGING_INSTANCE, event='No Previous Event', medical_record_number=patient.medical_record_number,
+./actions/sync.py:320:		event_json['medical_record_number'] = patient.medical_record_number
+./actions/sync.py:327:		event_json['latest'] = str(patient.medical_record_number) + str(body_location.JSID)
+./actions/sync.py:343:			event_history['medical_record_number'] = patient.medical_record_number
+./actions/deactivate.py:15:			"name": "medical_record_number",
+./actions/deactivate.py:68:	def post(self, user=None, sub=None, medical_record_number=None, role=None):
+./actions/deactivate.py:73:			if medical_record_number:
+./actions/deactivate.py:74:				patient = DBPatient.query.filter_by(pa_id=medical_record_number).first()
+./actions/deactivate.py:85:						device = DBDevice.query.filter_by(medical_record_number=medical_record_number).first()
+./actions/deactivate.py:88:							device.medical_record_number = None
+Binary file ./jobs/populate_report_data_daily.pyc matches
+./jobs/create_offline_device_events.py:30:				event['medical_record_number'] = p.medical_record_number
+./jobs/create_offline_device_events.py:40:				event_history['medical_record_number'] = p.medical_record_number
+Binary file ./jobs/create_offline_device_events.pyc matches
+./jobs/populate_report_data_daily.py:23:			write_response_data(end, medical_record_number=p.medical_record_number)
+./jobs/populate_report_data_daily.py:24:			write_reposition_data(end, medical_record_number=p.medical_record_number)
+./jobs/populate_report_data_daily.py:36:def write_response_data(end, medical_record_number=None, unit_floor=None, all=None):
+./jobs/populate_report_data_daily.py:43:	if medical_record_number:
+./jobs/populate_report_data_daily.py:44:		print medical_record_number
+./jobs/populate_report_data_daily.py:45:		response_query = DBAlarmResponse.query.filter_by(pa_id=medical_record_number).order_by(DBAlarmResponse.date, DBAlarmResponse.hour)
+./jobs/populate_report_data_daily.py:47:		latest = DBAlarmResponseReportData.query.filter_by(pa_id=medical_record_number).order_by(DBAlarmResponseReportData.date.desc()).first()
+./jobs/populate_report_data_daily.py:51:			activation = DBPatientActivation.query.join(DBPatient).filter(DBPatient.pa_id==medical_record_number).order_by(DBPatientActivation.occurred).first()
+./jobs/populate_report_data_daily.py:98:		elif medical_record_number:
+./jobs/populate_report_data_daily.py:99:			patients_active = get_patients_active_patient(medical_record_number, start, end)
+./jobs/populate_report_data_daily.py:442:			write_response_record(day_json, dt.date(), medical_record_number, unit_floor, all)
+./jobs/populate_report_data_daily.py:444:def write_reposition_data(end, medical_record_number=None, unit_floor=None, all=None):
+./jobs/populate_report_data_daily.py:451:	if medical_record_number:
+./jobs/populate_report_data_daily.py:452:		print medical_record_number
+./jobs/populate_report_data_daily.py:453:		response_query = DBAlarmResponse.query.filter_by(pa_id=medical_record_number).order_by(DBAlarmResponse.date, DBAlarmResponse.hour)
+./jobs/populate_report_data_daily.py:455:		latest = DBRepositionReportData.query.filter_by(pa_id=medical_record_number).order_by(DBRepositionReportData.date.desc()).first()
+./jobs/populate_report_data_daily.py:459:			activation = DBPatientActivation.query.join(DBPatient).filter(DBPatient.pa_id==medical_record_number).order_by(DBPatientActivation.occurred).first()
+./jobs/populate_report_data_daily.py:507:		elif medical_record_number:
+./jobs/populate_report_data_daily.py:508:			patients_active = get_patients_active_patient(medical_record_number, start, end)
+./jobs/populate_report_data_daily.py:737:			write_reposition_record(day_json, dt.date(), medical_record_number, unit_floor, all)
+./jobs/populate_report_data_daily.py:750:def write_reposition_record(data, date, medical_record_number=None, unit_floor=None, all=None):
+./jobs/populate_report_data_daily.py:754:	r = DBRepositionReportData(date, data, pa_id=medical_record_number, unit_floor=unit_floor, all=all)
+./jobs/populate_report_data_daily.py:757:def write_response_record(data, date, medical_record_number=None, unit_floor=None, all=None):
+./jobs/populate_report_data_daily.py:761:	r = DBAlarmResponseReportData(date, data, pa_id=medical_record_number, unit_floor=unit_floor, all=all)
+./jobs/populate_report_data_daily.py:769:def get_patients_active_patient(medical_record_number, start, end):
+./jobs/populate_report_data_daily.py:771:	p = DBPatient.query.filter_by(medical_record_number=medical_record_number).first()

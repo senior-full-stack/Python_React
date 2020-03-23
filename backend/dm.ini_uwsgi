@@ -1,0 +1,19 @@
+[uwsgi]
+plugins = python
+#uid = www-data
+#gid = www-data
+uid = dm_webapp
+gid = www-data
+max-requests = 1000
+processes = 5
+threads = 10
+workers = 5
+uwsgi-socket = /tmp/dm_app.sock
+chmod-socket = 664
+env = APP_CONFIG_FILE=/home/dm_webapp/webapp/config/production.py
+venv = /home/dm_webapp/webapp/venv
+chdir = /home/dm_webapp/webapp
+module = dm_app.app
+callable = app
+#req-logger = file:/tmp/reqlog
+logto = /tmp/dm_webapp.log

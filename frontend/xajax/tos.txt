@@ -1,0 +1,163 @@
+<p>DM SYSTEMS, INC. - Terms of Use</p>
+
+<br />
+<p>Acceptance of Terms</p>
+
+<p>The services that DM Systems, Inc. provides to you are subject to the following Terms of Use ("TOU"). DM Systems, Inc. reserves the right to update the TOU at any time without notice to you. The most current version of the TOU can be reviewed by clicking on the "Terms of Use" hypertext link located at the bottom of our Web pages.</p>
+
+<br />
+<p>Description of Services</p>
+
+<p>Through its network of Web properties, DM Systems, Inc. provides you with access to a variety of resources, including Pressure Alert System product information (collectively "Services"). The Services, including any updates, enhancements, new features, and/or the addition of any new Web properties, are subject to the TOU.</p>
+
+<br />
+<p>Personal and Non-Commercial Use Limitation</p>
+
+<p>Unless otherwise specified, the Services are for your personal and non-commercial use. You may not modify, copy, distribute, transmit, display, perform, reproduce, publish, license, create derivative works from, transfer, or sell any information, software, products or services obtained from the Services.</p>
+
+<br />
+<p>Privacy and Protection of Personal Information</p>
+
+<p>DM Systems, Inc. owns and collects data to operate effectively and provide you the best experiences with our Services. You provide some of this data directly, such as when you create an account or contact us for support. We get some data by recording how you interact with our Services by, for example, using technologies like cookies, and receiving error reports or usage data from our Services which may include software running on your device(s). We also obtain data from third parties (including other companies).</p>
+
+<p>We own and use the data we collect to provide you the Services we offer, which includes using data to improve and personalize your experiences. We also may use the data to communicate with you, for example, informing you about your account, security updates and product information. We also may use the data to help make the ads we show you more relevant to you. </p>
+
+<br />
+<p>Notice Specific to Software Available on this Website</p>
+
+<p>Any software that is made available to download from the Services ("Software") is the copyrighted work of DM Systems, Inc. and/or its licensors. Use of the Software is governed by the terms of the end user license agreement ("EULA") which accompanies or is included with the Software. An end user will be unable to install any Software that is accompanied by or includes a EULA, unless he or she first agrees to the EULA terms. Third party scripts or code, linked to or referenced from this website, are licensed to you by the third parties that own such code, not by DM Systems, Inc. </p>
+
+<p>The Software is made available for download solely for use by end users according to the EULA. Any reproduction or redistribution of the Software not in accordance with the EULA is expressly prohibited by law, and may result in severe civil and criminal penalties. Violators will be prosecuted to the maximum extent possible.</p>
+
+<br />
+<p>WITHOUT LIMITING THE FOREGOING, COPYING OR REPRODUCTION OF THE SOFTWARE TO ANY OTHER SERVER OR LOCATION FOR FURTHER REPRODUCTION OR REDISTRIBUTION IS EXPRESSLY PROHIBITED, UNLESS SUCH REPRODUCTION OR REDISTRIBUTION IS EXPRESSLY PERMITTED BY THE END USER LICENSE AGREEMENT (EULA) ACCOMPANYING SUCH SOFTWARE.</p>
+
+<br />
+<p>THE SOFTWARE IS WARRANTED, IF AT ALL, ONLY ACCORDING TO THE TERMS OF THE EULA. EXCEPT AS WARRANTED IN THE EULA, DM SYSTEMS, INC. HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS WITH REGARD TO THE SOFTWARE, INCLUDING ALL WARRANTIES AND CONDITIONS OF MERCHANTABILITY, WHETHER EXPRESS, IMPLIED OR STATUTORY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. FOR YOUR CONVENIENCE, DM SYSTEMS, INC. MAY MAKE AVAILABLE AS PART OF THE SERVICES OR IN ITS SOFTWARE PRODUCTS, TOOLS AND UTILITIES FOR USE AND/OR DOWNLOAD. DM SYSTEMS, INC. DOES NOT MAKE ANY ASSURANCES WITH REGARD TO THE ACCURACY OF THE RESULTS OR OUTPUT THAT DERIVES FROM SUCH USE OF ANY SUCH TOOLS AND UTILITIES. PLEASE RESPECT THE INTELLECTUAL PROPERTY RIGHTS OF OTHERS WHEN USING THE TOOLS AND UTILITIES MADE AVAILABLE ON THE SERVICES OR IN DM SYSTEMS, INC. SOFTWARE PRODUCTS.</p>
+
+<br />
+<p>RESTRICTED RIGHTS LEGEND: Any Software which is downloaded from the Services for or on behalf of the United States of America, its agencies and/or instrumentalities ("U.S. Government"), is provided with Restricted Rights. Use, duplication, or disclosure by the U.S. Government is subject to restrictions as set forth in subparagraph (c)(1)(ii) of the Rights in Technical Data and Computer Software clause at DFARS 252.227-7013 or subparagraphs (c)(1) and (2) of the Commercial Computer Software - Restricted Rights at 48 CFR 52.227-19, as applicable. Manufacturer is DM Systems, Inc.</p>
+
+<br />
+<p>Notice Specific to Documents Available on this Website</p>
+
+<p>Permission to use Documents (such as white papers, press releases, datasheets and FAQs) from the Services is granted, provided that (1) the below copyright notice appears in all copies and that both the copyright notice and this permission notice appear, (2) use of such Documents from the Services is for informational and non-commercial or personal use only and will not be copied or posted on any network computer or broadcast in any media, and (3) no modifications of any Documents are made. Accredited educational institutions, such as K-12, universities, private/public colleges, and state community colleges, may download and reproduce the Documents for distribution in the classroom. Distribution outside the classroom requires express written permission. Use for any other purpose is expressly prohibited by law, and may result in severe civil and criminal penalties. Violators will be prosecuted to the maximum extent possible.</p>
+
+<br />
+<p>Documents specified above do not include the design or layout of the DM Systems, Inc. website or any other DM Systems, Inc. owned, operated, licensed or controlled site. Elements of DM Systems, Inc. websites are protected by trade dress, trademark, unfair competition, and other laws and may not be copied or imitated in whole or in part. No logo, graphic, sound or image from any DM Systems, Inc. website may be copied or retransmitted unless expressly permitted by DM Systems, Inc.</p>
+
+<br />
+<p>DM SYSTEMS, INC. AND/OR ITS RESPECTIVE SUPPLIERS MAKE NO REPRESENTATIONS ABOUT THE SUITABILITY OF THE INFORMATION CONTAINED IN THE DOCUMENTS AND RELATED GRAPHICS PUBLISHED AS PART OF THE SERVICES FOR ANY PURPOSE. ALL SUCH DOCUMENTS AND RELATED GRAPHICS ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. DM SYSTEMS, INC. AND/OR ITS RESPECTIVE SUPPLIERS HEREBY DISCLAIM ALL WARRANTIES AND CONDITIONS WITH REGARD TO THIS INFORMATION, INCLUDING ALL WARRANTIES AND CONDITIONS OF MERCHANTABILITY, WHETHER EXPRESS, IMPLIED OR STATUTORY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT SHALL DM SYSTEMS, INC. AND/OR ITS RESPECTIVE SUPPLIERS BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF INFORMATION AVAILABLE FROM THE SERVICES.</p>
+
+<br />
+<p>THE DOCUMENTS AND RELATED GRAPHICS PUBLISHED ON THE SERVICES COULD INCLUDE TECHNICAL INACCURACIES OR TYPOGRAPHICAL ERRORS. CHANGES ARE PERIODICALLY ADDED TO THE INFORMATION HEREIN. DM SYSTEMS, INC. AND/OR ITS RESPECTIVE SUPPLIERS MAY MAKE IMPROVEMENTS AND/OR CHANGES IN THE PRODUCT(S) AND/OR THE PROGRAM(S) DESCRIBED HEREIN AT ANY TIME.</p>
+
+<br />
+<p>Notices Regarding Software, Documents, and Services Available <br />
+on this Website</p>
+
+<p>IN NO EVENT SHALL DM SYSTEMS, INC. AND/OR ITS RESPECTIVE SUPPLIERS BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF SOFTWARE, DOCUMENTS, PROVISION OF OR FAILURE TO PROVIDE SERVICES, OR INFORMATION AVAILABLE FROM THE SERVICES.</p>
+
+<br />
+<p>Member Account, Password, and Security</p>
+
+<p>If any of the Services requires you to open an account, you must complete the registration process by providing us with current, complete and accurate information as prompted by the applicable registration form. You also will choose a password and a user name. You are entirely responsible for maintaining the confidentiality of your password and account. Furthermore, you are entirely responsible for any and all activities that occur under your account. You agree to notify DM Systems, Inc. immediately of any unauthorized use of your account or any other breach of security. DM Systems, Inc. will not be liable for any loss that you may incur as a result of someone else using your password or account, either with or without your knowledge. However, you could be held liable for losses incurred by DM Systems, Inc. or another party due to someone else using your account or password. You may not use anyone else's account at any time, without the permission of the account holder.</p>
+
+<br />
+<p>No Unlawful or Prohibited Use</p>
+
+<p>As a condition of your use of the Services, you will not use the Services for any purpose that is unlawful or prohibited by these terms, conditions, and notices. You may not use the Services in any manner that could damage, disable, overburden, or impair any DM Systems, Inc. server, or the network(s) connected to any DM Systems, Inc. server, or interfere with any other party's use and enjoyment of any Services. You may not attempt to gain unauthorized access to any Services, other accounts, computer systems or networks connected to any DM Systems, Inc. server or to any of the Services, through hacking, password mining or any other means. You may not obtain or attempt to obtain any materials or information through any means not intentionally made available through the Services.</p>
+
+<br />
+<p>Use of Services</p>
+
+<p>The Services may contain e-mail services, bulletin board services, chat areas, news groups, forums, communities, personal web pages, calendars, photo albums, file cabinets and/or other message or communication facilities designed to enable you to communicate with others (each a "Communication Service" and collectively "Communication Services"). You agree to use the Communication Services only to post, send and receive messages and material that are proper and, when applicable, related to the particular Communication Service. By way of example, and not as a limitation, you agree that when using the Communication Services, you will not:</p>
+
+<br />
+<ul>
+<li><p>Use the Communication Services in connection with surveys, contests, pyramid schemes, chain letters, junk email, spamming or any duplicative or unsolicited messages (commercial or otherwise).</p>
+
+</li>
+<li><p>Defame, abuse, harass, stalk, threaten or otherwise violate the legal rights (such as rights of privacy and publicity) of others.</p>
+
+</li>
+<li><p>Publish, post, upload, distribute or disseminate any inappropriate, profane, defamatory, obscene, indecent or unlawful topic, name, material or information.</p>
+
+</li>
+<li><p>Upload, or otherwise make available, files that contain images, photographs, software or other material protected by intellectual property laws, including, by way of example, and not as limitation, copyright or trademark laws (or by rights of privacy or publicity) unless you own or control the rights thereto or have received all necessary consent to do the same.</p>
+
+</li>
+<li><p>Use any material or information, including images or photographs, which are made available through the Services in any manner that infringes any copyright, trademark, patent, trade secret, or other proprietary right of any party.</p>
+
+</li>
+<li><p>Upload files that contain viruses, Trojan horses, worms, time bombs, cancelbots, corrupted files, or any other similar software or programs that may damage the operation of another's computer or property of another.</p>
+
+</li>
+<li><p>Advertise or offer to sell or buy any goods or services for any business purpose, unless such Communication Services specifically allows such messages.</p>
+
+</li>
+<li><p>Download any file posted by another user of a Communication Service that you know, or reasonably should know, cannot be legally reproduced, displayed, performed, and/or distributed in such manner.</p>
+
+</li>
+<li><p>Falsify or delete any copyright management information, such as author attributions, legal or other proper notices or proprietary designations or labels of the origin or source of software or other material contained in a file that is uploaded.</p>
+
+</li>
+<li><p>Restrict or inhibit any other user from using and enjoying the Communication Services.</p>
+
+</li>
+<li><p>Violate any code of conduct or other guidelines that may be applicable for any particular Communication Service.</p>
+
+</li>
+<li><p>Harvest or otherwise collect information about others, including e-mail addresses.</p>
+
+</li>
+<li><p>Violate any applicable laws or regulations.</p>
+
+</li>
+<li><p>Create a false identity for the purpose of misleading others.</p>
+
+</li>
+<li><p>Use, download or otherwise copy, or provide (whether or not for a fee) to a person or entity any directory of users of the Services or other user or usage information or any portion thereof.</p>
+
+</li>
+</ul>
+
+<br />
+<p>DM Systems, Inc. has no obligation to monitor the Communication Services. However, DM Systems, Inc. reserves the right to review materials posted to the Communication Services and to remove any materials in its sole discretion. DM Systems, Inc. reserves the right to terminate your access to any or all of the Communication Services at any time, without notice, for any reason whatsoever.</p>
+
+<br />
+<p>DM Systems, Inc. reserves the right at all times to disclose any information as DM Systems, Inc. deems necessary to satisfy any applicable law, regulation, legal process or governmental request, or to edit, refuse to post or to remove any information or materials, in whole or in part, in DM Systems, Inc.'s sole discretion.</p>
+
+<br />
+<p>Always use caution when giving out any personally identifiable information about yourself or your children in any Communication Services. DM Systems, Inc. does not control or endorse the content, messages or information found in any Communication Services and, therefore, DM Systems, Inc. specifically disclaims any liability with regard to the Communication Services and any actions resulting from your participation in any Communication Services. Managers and hosts are not authorized DM Systems, Inc. spokespersons, and their views do not necessarily reflect those of DM Systems, Inc.</p>
+
+<br />
+<p>Materials uploaded to the Communication Services may be subject to posted limitations on usage, reproduction and/or dissemination; you are responsible for adhering to such limitations if you download the materials.</p>
+
+<br />
+<p>Materials Provided to DM Systems, Inc. or Posted at Any DM Systems, Inc. Website</p>
+
+<p>DM Systems, Inc. does not claim ownership of the materials you provide to DM Systems, Inc. (including feedback and suggestions) or post, upload, input or submit to any Services or its associated services for review by the general public, or by the members of any public or private community, (each a "Submission" and collectively "Submissions"). However, by posting, uploading, inputting, providing or submitting ("Posting") your Submission you are granting DM Systems, Inc., its affiliated companies and necessary sublicensees permission to use your Submission in connection with the operation of their Internet businesses (including, without limitation, all DM Systems, Inc. Services), including, without limitation, the license rights to: copy, distribute, transmit, publicly display, publicly perform, reproduce, edit, translate and reformat your Submission; to publish your name in connection with your Submission; and the right to sublicense such rights to any supplier of the Services.</p>
+
+<p>No compensation will be paid with respect to the use of your Submission, as provided herein. DM Systems, Inc. is under no obligation to post or use any Submission you may provide and DM Systems, Inc. may remove any Submission at any time in its sole discretion.</p>
+
+<p>By Posting a Submission you warrant and represent that you own or otherwise control all of the rights to your Submission as described in these Terms of Use including, without limitation, all the rights necessary for you to provide, post, upload, input or submit the Submissions.</p>
+
+<p>In addition to the warranty and representation set forth above, by Posting a Submission that contain images, photographs, pictures or that are otherwise graphical in whole or in part ("Images"), you warrant and represent that (a) you are the copyright owner of such Images, or that the copyright owner of such Images has granted you permission to use such Images or any content and/or images contained in such Images consistent with the manner and purpose of your use and as otherwise permitted by these Terms of Use and the Services, (b) you have the rights necessary to grant the licenses and sublicenses described in these Terms of Use, and (c) that each person depicted in such Images, if any, has provided consent to the use of the Images as set forth in these Terms of Use, including, by way of example, and not as a limitation, the distribution, public display and reproduction of such Images. By Posting Images, you are granting (a) to all members of your private community (for each such Images available to members of such private community), and/or (b) to the general public (for each such Images available anywhere on the Services, other than a private community), permission to use your Images in connection with the use, as permitted by these Terms of Use, of any of the Services, (including, by way of example, and not as a limitation, making prints and gift items which include such Images), and including, without limitation, a non-exclusive, world-wide, royalty-free license to: copy, distribute, transmit, publicly display, publicly perform, reproduce, edit, translate and reformat your Images without having your name attached to such Images, and the right to sublicense such rights to any supplier of the Services. The licenses granted in the preceding sentences for a Images will terminate at the time you completely remove such Images from the Services, provided that, such termination shall not affect any licenses granted in connection with such Images prior to the time you completely remove such Images. No compensation will be paid with respect to the use of your Images.</p>
+
+<br />
+<p>Notices and Procedure for Making Claims of Copyright Infringement</p>
+
+<p>Pursuant to Title 17, United States Code, Section 512(c)(2), notifications of claimed copyright infringement should be sent to Service Provider's Designated Agent. ALL INQUIRIES NOT RELEVANT WILL NOT RECEIVE A RESPONSE.</p>
+
+<br />
+<p>Links to Third Party Sites</p>
+
+<p>THE LINKS IN THIS AREA WILL LET YOU LEAVE DM SYSTEMS, INC.'S SITE. THE LINKED SITES ARE NOT UNDER THE CONTROL OF DM SYSTEMS, INC. AND DM SYSTEMS, INC. IS NOT RESPONSIBLE FOR THE CONTENTS OF ANY LINKED SITE OR ANY LINK CONTAINED IN A LINKED SITE, OR ANY CHANGES OR UPDATES TO SUCH SITES. DM SYSTEMS, INC. IS NOT RESPONSIBLE FOR WEBCASTING OR ANY OTHER FORM OF TRANSMISSION RECEIVED FROM ANY LINKED SITE. DM SYSTEMS, INC. IS PROVIDING THESE LINKS TO YOU ONLY AS A CONVENIENCE, AND THE INCLUSION OF ANY LINK DOES NOT IMPLY ENDORSEMENT BY DM SYSTEMS, INC. OF THE SITE.</p>
+
+<br />
+<p>Unsolicited Idea Submission Policy</p>
+
+<p>DM SYSTEMS, INC. OR ANY OF ITS EMPLOYEES DO NOT ACCEPT OR CONSIDER UNSOLICITED IDEAS, INCLUDING IDEAS FOR NEW ADVERTISING CAMPAIGNS, NEW PROMOTIONS, NEW PRODUCTS OR TECHNOLOGIES, PROCESSES, MATERIALS, MARKETING PLANS OR NEW PRODUCT NAMES. PLEASE DO NOT SEND ANY ORIGINAL CREATIVE ARTWORK, SAMPLES, DEMOS, OR OTHER WORKS. THE SOLE PURPOSE OF THIS POLICY IS TO AVOID POTENTIAL MISUNDERSTANDINGS OR DISPUTES WHEN DM SYSTEMS, INC.'S PRODUCTS OR MARKETING STRATEGIES MIGHT SEEM SIMILAR TO IDEAS SUBMITTED TO DM SYSTEMS, INC. SO, PLEASE DO NOT SEND YOUR UNSOLICITED IDEAS TO DM SYSTEMS, INC. OR ANYONE AT DM SYSTEMS, INC. IF, DESPITE OUR REQUEST THAT YOU NOT SEND US YOUR IDEAS AND MATERIALS, YOU STILL SEND THEM, PLEASE UNDERSTAND THAT DM SYSTEMS, INC. MAKES NO ASSURANCES THAT YOUR IDEAS AND MATERIALS WILL BE TREATED AS CONFIDENTIAL OR PROPRIETARY. YOUR IDEAS AND MATERIALS WILL IN FACT NOT BE TREATED AS CONFIDENTIAL OR PROPRIETARY.</p>
+
+<br />

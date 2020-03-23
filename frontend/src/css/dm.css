@@ -1,0 +1,391 @@
+#logo-img {
+	height: 60px;
+}
+
+#login_logo_pa {
+	height: 100px;
+}
+#login_logo_dhs {
+	height: 150px;
+}
+
+/* DASHBOARD */
+.dashboard-card {
+	height: 200px;
+}
+.dashboard-card .card-content {
+	height: 140px;
+}
+
+#patient_page_patient_name {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+#patient_page_patient_mrn {
+	display: block;
+	font-style: italic;
+	padding-left: .5em;
+}
+
+.alerts_page_blink_red {
+	background-color: red;
+}
+.alerts_page_blink_white {
+	background-color: white;
+}
+
+select {
+	border: 1px solid white;
+}
+
+.input-field label {
+	width: 100%;
+}
+
+#navigation .container {
+	width: 98%;
+}
+
+#desktop-nav span {
+	font-size: 85%;
+}
+
+#main-app {
+	margin-top: 20px;
+}
+
+.container {
+	width: 90%;
+}
+
+.login-title {
+	color: #26a69a;
+	font-weight: bold;
+}
+
+.chart_patient_name {
+	margin-bottom: 30px;
+}
+
+.chart_zoom_controls a i {
+	font-size: 2.5em;
+}
+.chart_zoom_controls > * {
+	cursor: pointer;
+	margin-left: 30px;
+}
+
+.a-table {
+	margin-top: 60px;
+}
+.top-right-button {
+	position: absolute;
+	top: 75px;
+	right: 15px;
+}
+.top-right-button span {
+	margin-left: 10px;
+}
+
+.lowerbutton {
+	text-transform: none;
+}
+
+#report-tabs {
+	margin-bottom: 20px;
+}
+
+#patient-tabs {
+	margin-bottom: 20px;
+	font-size: 13px;
+}
+
+#patient-tabs a {
+	color: grey;
+}
+
+#patient-tabs .active {
+	color: #ee6e73;
+}
+
+.patient-checkbox-list {
+	margin-left: 15px;
+	padding-left: 5px;
+	border: inset;
+}
+
+.patient-info-name {
+	float: left;
+	width: 30%;
+	font-weight: bold;
+}
+.patient-info-value {
+}
+
+input.time-input {
+	width: 50px;
+}
+
+.sensors-returned-question {
+	font-size: 2em;
+	color: red;
+}
+
+footer.page-footer {
+	position: relative;
+	bottom: 0px;
+	width: 100%;
+  margin-top: 50px;
+  padding-top: 0px;
+  background-color: #ee6e73;
+}
+
+.delete-click {
+	cursor: pointer;
+}
+
+/* slick grid stuff */
+
+.slick-header-column.ui-state-default {
+	height: 25px;
+}
+.slick-header {
+  border: 1px solid gray;
+  border-bottom: 0;
+  border-top: 0;
+  /*background: url('../images/header-bg.gif') repeat-x center top;*/
+  color: black;
+  height: 24px;
+  line-height: 24px;
+}
+
+.grid-header label {
+  display: inline-block;
+  font-weight: bold;
+  margin: auto auto auto 6px;
+}
+
+.grid-header .ui-icon {
+  margin: 4px 4px auto 6px;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.grid-header .ui-icon.ui-state-hover {
+  background-color: white;
+}
+
+.grid-header #txtSearch {
+  margin: 0 4px 0 4px;
+  padding: 2px 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border: 1px solid silver;
+}
+
+.options-panel {
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border: 1px solid silver;
+  background: #f0f0f0;
+  padding: 4px;
+  margin-bottom: 20px;
+  width: 320px;
+  position: absolute;
+  top: 0px;
+  left: 650px;
+}
+
+/* Individual cell styles */
+.slick-cell.task-name {
+  font-weight: bold;
+  text-align: right;
+}
+
+.slick-cell.task-percent {
+  text-align: right;
+}
+
+.slick-cell.cell-move-handle {
+  font-weight: bold;
+  text-align: right;
+  border-right: solid gray;
+
+  background: #efefef;
+  cursor: move;
+}
+
+.cell-move-handle:hover {
+  background: #b6b9bd;
+}
+
+.slick-row.selected .cell-move-handle {
+  background: #D5DC8D;
+}
+
+.slick-row .cell-actions {
+  text-align: left;
+}
+
+.slick-row.complete {
+  background-color: #DFD;
+  color: #555;
+}
+
+.percent-complete-bar {
+  display: inline-block;
+  height: 6px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
+/* Slick.Editors.Text, Slick.Editors.Date */
+input.editor-text {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  margin: 0;
+  background: transparent;
+  outline: 0;
+  padding: 0;
+
+}
+
+.ui-datepicker-trigger {
+  margin-top: 2px;
+  padding: 0;
+  vertical-align: top;
+}
+
+/* Slick.Editors.PercentComplete */
+input.editor-percentcomplete {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  margin: 0;
+  background: transparent;
+  outline: 0;
+  padding: 0;
+
+  float: left;
+}
+
+.editor-percentcomplete-picker {
+  position: relative;
+  display: inline-block;
+  width: 16px;
+  height: 100%;
+  /*background: url("../images/pencil.gif") no-repeat center center;*/
+  overflow: visible;
+  z-index: 1000;
+  float: right;
+}
+
+.editor-percentcomplete-helper {
+  border: 0 solid gray;
+  position: absolute;
+  top: -2px;
+  left: -9px;
+  /*background: url("../images/editor-helper-bg.gif") no-repeat top left;*/
+  padding-left: 9px;
+
+  width: 120px;
+  height: 140px;
+  display: none;
+  overflow: visible;
+}
+
+.editor-percentcomplete-wrapper {
+  background: beige;
+  padding: 20px 8px;
+
+  width: 100%;
+  height: 98px;
+  border: 1px solid gray;
+  border-left: 0;
+}
+
+.editor-percentcomplete-buttons {
+  float: right;
+}
+
+.editor-percentcomplete-buttons button {
+  width: 80px;
+}
+
+.editor-percentcomplete-slider {
+  float: left;
+}
+
+.editor-percentcomplete-picker:hover .editor-percentcomplete-helper {
+  display: block;
+}
+
+.editor-percentcomplete-helper:hover {
+  display: block;
+}
+
+/* Slick.Editors.YesNoSelect */
+select.editor-yesno {
+  width: 100%;
+  margin: 0;
+  vertical-align: middle;
+}
+
+/* Slick.Editors.Checkbox */
+input.editor-checkbox {
+  margin: 0;
+  height: 100%;
+  padding: 0;
+  border: 0;
+}
+
+.bordered-yellow {
+    background-color: #ffeb3b !important;
+    border-color: red !important;
+    border: 2px solid;
+}
+
+.bordered-orange {
+    background-color: #ff9800 !important;
+    border-color: red !important;
+    border: 2px solid;
+}
+
+.Select-menu-outer {
+    z-index: 999;
+}
+
+.Select, .Select.is-focused {
+    top: 10px;
+    border-radius: 0;
+    border: none;
+}
+
+.Select-control {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #9e9e9e;
+}
+
+.is-focused:not(.is-open) > .Select-control {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #9e9e9e;
+    box-shadow: none;
+}
+
+.Select-option {
+    font-size: 16px;
+    color: #26a69a;
+    display: block;
+    line-height: 22px;
+    padding: 14px 16px;
+}
+
+#report-warning {
+    text-align: center;
+    padding: 5px;
+    display: none;
+}
