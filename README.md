@@ -2,7 +2,7 @@
 backend is python2.7 (flask), frontend is react
 
 This assumes you have python, pip, and mysql installed on your machine and that you’ve created an empty database for the project in mysql. All of these commands are meant to be run from the base “webapp” directory of the project in a macos terminal, but their equivalent will work if developing on another operating system.
-1.	Clone the repo - git clone git@github.com:DigitalHealthSolutions/webapp.git
+1.	Clone the repo - git clone https://github.com/senior-full-stack/Python_React.git
 2.	Create a virtual environment for the project - virtualenv venv
 3.	Activate the virtual environment - . venv/bin/activate
 4.	Use pip to install the project requirements - pip install -r requirements.txt
