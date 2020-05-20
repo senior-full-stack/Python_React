@@ -21,7 +21,7 @@ bcrypt==2.0.0
 boto3==1.4.1
 botocore==1.4.78
 flask-restful-swagger==0.19
-httplib2==0.9
+httplib2==0.18.0
 itsdangerous==0.24
 oauth2==1.5.211
 requests==2.6.0
