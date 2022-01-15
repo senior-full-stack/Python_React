@@ -43,7 +43,7 @@
     "hammerjs": "^2.0.8",
     "handsontable": "^0.34.5",
     "jquery": "^2.2.0",
-    "marked": "^0.3.6",
+    "marked": "^4.0.10",
     "materialize-css": "^0.100.2",
     "moment": "^2.14.1",
     "numbro": "^1.9.3",
