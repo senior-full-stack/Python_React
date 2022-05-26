@@ -28,6 +28,6 @@ requests==2.6.0
 rfc3339==5
 structlog==16.1.0
 twilio==5.3.0
-ujson==1.35
+ujson==5.2.0
 uwsgidecorators==1.1.0
 wsgiref==0.1.2
